@@ -116,8 +116,14 @@
   * {
     @apply border-border outline-ring/50;
   }
+
+  html {
+    scroll-padding-top: 76px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+
   body {
     @apply bg-background text-foreground;
-    scroll-padding-top: 76px;
   }
 }

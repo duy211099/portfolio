@@ -54,15 +54,18 @@ export default function Home() {
                 <Button
                   variant="outline"
                   className="bg-white border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-all"
+
                 >
-                  Contact Me
+                  <a href="mailto:duy211099@gmail.com" target="_blank" rel="noopener noreferrer">
+                    Contact Me
+                  </a>
                 </Button>
               </div>
             </div>
 
             <div className="flex justify-center mt-12 gap-6">
               <a
-                href="https://github.com"
+                href="https://github.com/duy211099"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#f8f9fa] p-3 border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-y-1 hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-all"
@@ -70,7 +73,7 @@ export default function Home() {
                 <Github size={24} />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/duy211099"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-[#f8f9fa] p-3 border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-y-1 hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-all"
@@ -78,7 +81,7 @@ export default function Home() {
                 <Linkedin size={24} />
               </a>
               <a
-                href="mailto:email@example.com"
+                href="mailto:duy211099@gmail.com"
                 className="bg-[#f8f9fa] p-3 border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:translate-y-1 hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-all"
               >
                 <Mail size={24} />
@@ -100,7 +103,7 @@ export default function Home() {
                 description="A full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, product management, and payment processing."
                 tags={["React", "Node.js", "MongoDB", "Stripe"]}
                 image="/placeholder.svg?height=300&width=500"
-                github="https://github.com"
+                github="https://github.com/duy211099"
                 demo="https://example.com"
                 color="#fb5607"
               />
@@ -110,7 +113,7 @@ export default function Home() {
                 description="A productivity application built with Next.js and Firebase. Includes real-time updates, drag-and-drop interface, and team collaboration features."
                 tags={["Next.js", "Firebase", "Tailwind CSS", "TypeScript"]}
                 image="/placeholder.svg?height=300&width=500"
-                github="https://github.com"
+                github="https://github.com/duy211099"
                 demo="https://example.com"
                 color="#8338ec"
               />
@@ -120,7 +123,7 @@ export default function Home() {
                 description="An AI-powered application that generates marketing content using OpenAI's GPT-4. Built with React and Python Flask backend."
                 tags={["React", "Python", "Flask", "OpenAI"]}
                 image="/placeholder.svg?height=300&width=500"
-                github="https://github.com"
+                github="https://github.com/duy211099"
                 demo="https://example.com"
                 color="#3a86ff"
               />
@@ -130,7 +133,7 @@ export default function Home() {
                 description="A mobile-first web application for tracking workouts and nutrition. Features include progress visualization and custom workout plans."
                 tags={["React Native", "GraphQL", "Node.js", "D3.js"]}
                 image="/placeholder.svg?height=300&width=500"
-                github="https://github.com"
+                github="https://github.com/duy211099"
                 demo="https://example.com"
                 color="#ff006e"
               />
@@ -230,7 +233,7 @@ export default function Home() {
 
             <div className="flex gap-6">
               <a
-                href="https://github.com"
+                href="https://github.com/duy211099"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-[#ff5252] transition-colors"
@@ -238,21 +241,21 @@ export default function Home() {
                 <Github size={24} />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/duy211099"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="hover:text-[#ff5252] transition-colors"
               >
                 <Linkedin size={24} />
               </a>
-              <a href="mailto:email@example.com" className="hover:text-[#ff5252] transition-colors">
+              <a href="mailto:duy211099@gmail.com" className="hover:text-[#ff5252] transition-colors">
                 <Mail size={24} />
               </a>
             </div>
           </div>
 
           <div className="mt-8 pt-8 border-t border-gray-800 text-center text-gray-400">
-            <p>© {new Date().getFullYear()} Developer Name. All rights reserved.</p>
+            <p>© {new Date().getFullYear()} Duy Pham. All rights reserved.</p>
           </div>
         </div>
       </footer>

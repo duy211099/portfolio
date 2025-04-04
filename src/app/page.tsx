@@ -207,7 +207,7 @@ export default function Home() {
               </h2>
 
               <p className="text-xl mb-12 bg-white p-6 border-4 border-black shadow-[8px_8px_0px_0px_rgba(0,0,0,1)]">
-                Have a project in mind or just want to chat? Feel free to reach out! I'm always open to discussing new
+                Have a project in mind or just want to chat? Feel free to reach out! I&apos;m always open to discussing new
                 projects, creative ideas, or opportunities to be part of your vision.
               </p>
 

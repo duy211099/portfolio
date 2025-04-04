@@ -1,5 +1,6 @@
 import { Github, ExternalLink } from "lucide-react"
 import { Button } from "@/components/ui/button"
+import Image from "next/image"
 
 interface ProjectCardProps {
   title: string
@@ -36,9 +37,11 @@ export function ProjectCard({ title, description, tags, image, github, demo, col
             <ExternalLink size={24} />
           </a>
         </div>
-        <img
+        <Image
           src={image || "/placeholder.svg"}
           alt={title}
+          width={500}
+          height={192}
           className="w-full h-48 object-cover border-b-4 border-black"
         />
       </div>

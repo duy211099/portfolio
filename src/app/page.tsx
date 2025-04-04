@@ -49,7 +49,7 @@ export default function Home() {
               </p>
               <div className="flex flex-wrap gap-4">
                 <Button className="bg-black hover:bg-[#333] text-white border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] hover:shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] transition-all">
-                  View Projects
+                  <a href="http://localhost:3000/#projects" className="w-full h-full">View Projects</a>
                 </Button>
                 <Button
                   variant="outline"

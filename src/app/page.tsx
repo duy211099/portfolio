@@ -14,9 +14,9 @@ export default function Home() {
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="font-black text-2xl tracking-tighter">
             <span className="bg-[#4cc9f0] px-3 py-1 text-black font-extrabold border-2 border-black rotate-2 inline-block shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]">
-              DEV
+              DUY
             </span>
-            <span className="bg-black px-2 py-1 text-white -rotate-1 inline-block ml-1">NAME</span>
+            <span className="bg-black px-2 py-1 text-white -rotate-1 inline-block ml-1">PHAM</span>
           </div>
           <nav className="hidden md:flex gap-6">
             {["About", "Projects", "Skills", "Contact"].map((item) => (
@@ -221,9 +221,9 @@ export default function Home() {
             <div className="mb-6 md:mb-0">
               <div className="font-black text-2xl tracking-tighter mb-2">
                 <span className="bg-[#4cc9f0] px-3 py-1 text-black font-extrabold border-2 border-black rotate-2 inline-block shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]">
-                  DEV
+                  DUY
                 </span>
-                <span className="bg-white px-2 py-1 text-black -rotate-1 inline-block ml-1">NAME</span>
+                <span className="bg-white px-2 py-1 text-black -rotate-1 inline-block ml-1">PHAM</span>
               </div>
               <p className="text-gray-400">Building digital experiences that matter.</p>
             </div>
